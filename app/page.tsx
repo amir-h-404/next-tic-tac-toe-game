@@ -24,13 +24,15 @@ export default function Home() {
                     Start the game!</span>
             </div>
             <div className={'flex flex-col gap-4'}>
-                <GiTicTacToe className={'text-[14rem] text-blue-800 block mx-auto'}/>
-                <h1 className={`${dynaPuffFont.className} text-5xl text-blue-600 
+                <GiTicTacToe className={'text-[17rem] text-blue-800 block mx-auto'}/>
+                <h1 className={`${dynaPuffFont.className} text-6xl text-blue-600 
                 tracking-wider text-center`}>Tic Tac Toe</h1>
                 <div className={'flex flex-wrap justify-center p-2 gap-2'}>
-                    <ButtonWithIcon icon={<CgBoy/>} text="play with human"/>
                     <ButtonWithIcon
-                        icon={<HiMiniComputerDesktop/>}
+                        icon={<CgBoy className={'text-4xl'}/>}
+                        text="play with human"/>
+                    <ButtonWithIcon
+                        icon={<HiMiniComputerDesktop className={'text-4xl'}/>}
                         text="play with computer"/>
                 </div>
             </div>
