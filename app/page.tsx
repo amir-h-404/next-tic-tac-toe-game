@@ -1,4 +1,5 @@
 import {DynaPuff} from 'next/font/google';
+import {GiTicTacToe} from "react-icons/gi";
 
 const dynaPuffFont = DynaPuff({
     subsets: ['latin'],
@@ -7,6 +8,10 @@ const dynaPuffFont = DynaPuff({
 
 export default function Home() {
     return (
-        <div className={dynaPuffFont.className}>Home Page</div>
+        <div className={dynaPuffFont.className}>
+            <div>
+                <GiTicTacToe className={'text-9xl text-blue-800'}/>
+            </div>
+        </div>
     );
 }
