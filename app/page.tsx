@@ -8,9 +8,11 @@ const dynaPuffFont = DynaPuff({
 
 export default function Home() {
     return (
-        <div className={dynaPuffFont.className}>
+        <div>
             <div>
-                <GiTicTacToe className={'text-9xl text-blue-800'}/>
+                <GiTicTacToe className={'text-[14rem] text-blue-800'}/>
+                <h1 className={`${dynaPuffFont.className} text-5xl text-blue-600 
+                tracking-wider`}>Tic Tac Toe</h1>
             </div>
         </div>
     );
