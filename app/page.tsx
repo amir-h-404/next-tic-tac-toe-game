@@ -12,10 +12,10 @@ const dynaPuffFont = DynaPuff({
 export default function Home() {
     return (
         <div>
-            <div>
-                <GiTicTacToe className={'text-[14rem] text-blue-800'}/>
+            <div className={'flex flex-col gap-4'}>
+                <GiTicTacToe className={'text-[14rem] text-blue-800 block mx-auto'}/>
                 <h1 className={`${dynaPuffFont.className} text-5xl text-blue-600 
-                tracking-wider`}>Tic Tac Toe</h1>
+                tracking-wider text-center`}>Tic Tac Toe</h1>
                 <div className={'flex flex-wrap justify-center p-2 gap-2'}>
                     <ButtonWithIcon icon={<CgBoy/>} text="play with human"/>
                     <ButtonWithIcon
