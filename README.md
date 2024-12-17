@@ -2,7 +2,6 @@
 - learning project - **2**
 - This project includes Object-Oriented Programming (**OOP**)
 - This game includes both human vs. human (two-player) and human vs. computer (single-player) modes
-- prototype image: [here](https://github.com/amir-h-404/next-tic-tac-toe-game/blob/master/public/prototype.png)
 - University Project from Azad University of Gorgan - **2024**
 - Author: **Amirhossein Emadi**
 

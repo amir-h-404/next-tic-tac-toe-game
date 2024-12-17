@@ -19,8 +19,8 @@ interface RootLayoutProps {
 
 const RootLayout: React.FC<RootLayoutProps> = ({children}) => {
     return (
-        <html lang="en" className={jetBrainsMono.className}>
-            <body>
+        <html lang="en" className={`${jetBrainsMono.className} h-full`}>
+            <body className={'h-full bg-blue-100'}>
                 {children}
             </body>
         </html>
